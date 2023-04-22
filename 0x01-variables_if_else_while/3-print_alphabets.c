@@ -8,19 +8,20 @@
 */
 int main(void)
 {
-	char lower_alpha = 'a';
-	char upper_alpha = 'A';
+	int num = 97;
+	char Num  = 65;
+
 	/* this prints a -z in lowercase*/
-	while (lower_alpha <= 'z')
+	while (num <= 122)
 	{
-		putchar(lower_alpha);
-		++lowe_alpha;
+		putchar(num);
+		++nim;
 	}
 	/*this prints A-Z in uppercase*/
-	while (upper_alpha <= 'Z')
+	while (NUM <= 90)
 	{
-		putchar(upper_alpha);
-		++upper_alpha;
+		putchar(NUM);
+		++NUM;
 	}
 	putchar('\n');
 	return (0);
