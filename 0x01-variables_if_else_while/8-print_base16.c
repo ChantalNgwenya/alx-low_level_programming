@@ -9,6 +9,7 @@
 int main(void)
 {
 	int digit = 48;/*48; decimal representation of 0*/
+
 	while (digit <= 102) /*102; is a decimal representation of f*/
 	{
 		putchar(digit);
