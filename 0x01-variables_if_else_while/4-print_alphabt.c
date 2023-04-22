@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - is entry point
+ *main - is entry point
  *
- * Description: prints all alphabets exept e and q 
+ *Description: prints all alphabets exept e and q
  *
  * Return: is always 0 (success)
 */
