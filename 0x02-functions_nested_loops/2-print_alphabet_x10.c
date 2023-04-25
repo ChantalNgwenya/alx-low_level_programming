@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	int num;
 	int alph;
 
-	for (num = 0; num <= 10; num++)
+	for (num = 1; num <= 10; num++)
 	{
 		for (alph = 97; alph <= 122; alph++)
 		{
