@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * _islower - entry point
- *
- * Description - return 1 if c is lowercase
+ * _islower - return 1 if c is lowercase,
  * else return 0
+ *
  *@c - chara in ASCII code
  *
  * Return - 1 if its lowercase,
