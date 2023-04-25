@@ -9,28 +9,22 @@
 */
 int main(void)
 {
-	int num1 = 0, num2;
+	int digit1, digit2;
 
-	while (num2 <= 9)
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		num2 = 0;
-		while (num2 <= 9)
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{
-			if (num1 != num2 && num1 < num2)
-			{
-				putchar(num1 + 48);
-				putchar(num2 + 48);
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
 
-				if (num1 + num2 != 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			++num2;
+			if (digit1 == 8 && digit2 == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
-		++num1;
 	}
+
 	putchar('\n');
 
 	return (0);
