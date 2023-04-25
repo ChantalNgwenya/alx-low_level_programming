@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <unistdio.h>
 /**
- *
  * main - is the entry point
  *
  * Description: it prints a quote using the write function
