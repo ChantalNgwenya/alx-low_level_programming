@@ -1,6 +1,9 @@
 #include <stdio.h>
 /**
- * main - prints file name it was compiled from
+ * main - entry point
+ *
+ * Description: prints file name it was compiled from
+ * 
  * Return : 0
 */
 int main(void)
